@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+                
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("images/image\ 1.png");
+    width: 1440px;
+    background-size: 1600px 100vh;
+    background-position-x: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-size: 52.5px;
+    font-weight: 700;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    line-height: 70px;
+}
+
+p{
+    color: white;
+    font-size: 28px;
+    font-family: 'Sofia Pro', sans-serif;
+}
+.alajo_logo{
+    padding-left: 120px;
+    padding-top: 40px;
+}
+.alajo_logo img{
+    width: 100px;
+}
+
+.alajo_main{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.alajo_left{
+    width: 900px;
+    padding-left: 130px;
+    padding-top: 100px;
+}
+.hello{
+    display: flex;
+}
+
+.hello img{
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.alajo_left .launch{
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+.fintech{
+    width: 465px;
+    font-size: 23.5px;
+    line-height: 40px;
+    font-family: 'Sofia Pro', sans-serif;
+}
+span{
+    font-family: 'Playfair Display', sans-serif;
+    font-style: italic;
+    color: #33E18F;
+}
+
+.subscribe{
+    margin-top: 40px;
+    font-family: 'Sofia Pro', sans-serif;
+}
+label{
+    display: block;
+    color: white;
+    font-size: 22.5px;
+    font-family: 'Sofia Pro', sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type=text]{
+    width: 340px;
+    height: 45px;
+    border: 1px solid #32E18E;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+input[type=text]::placeholder{
+    font-size: 15px;
+    font-family: 'Sofia Pro', sans-serif;
+    color: #C4C4C4;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+input[type=button]{
+    width: 220px;
+    height: 47px;
+    line-height: 1px;
+    margin-left: -4px;
+    color: white;
+    font-size: 14.5px;
+    letter-spacing: 2px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 400;
+    padding: 0px -2px;
+    background-color: #32E18E;
+    border: 1px solid #32E18E;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+}
+.alajo_right{
+    width: 650px;
+    height: 500px;
+}
+
+.alajo_right img{
+    width: 800px;
+    height: 570px;
+    margin-top: -90px;
+    margin-left: -15px;
+}
+
+.alajo_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px -20px;
+    margin-right: -50px;
+}
+
+.alajo_companies{
+    padding-left: 120px;
+}
+
+.kjk{
+    width: 152px;
+    margin-top: 40px;
+    padding-right: -2px;
+}
+.shrewd{
+    width: 150px;
+    margin-bottom: 12px;
+    margin-left: -3px;
+}
+
+.alajo_app{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.alajo_app p{
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.playstore, .appstore{
+    width: 175px;
+    height: 50px;
+    margin-left: 3px;
+}
+
+
+ 
+@media only screen and (max-width: 900px) {
+
+    body{
+        width: auto;
+    }
+    h3{
+        font-size: 48px;
+    }
+    .alajo_logo{
+        padding-left: 90px;
+        padding-top: 50px;
+    }
+    .alajo_left{
+        width: 700px;
+        padding-left: 100px;
+        padding-top: 100px;
+    }
+    
+    .hello img{
+        width: 52px;
+        height: 52px;
+    }
+    .alajo_left .launch{
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+    .fintech{
+        width: 505px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .subscribe{
+        margin-top: 40px;
+    }
+    
+    .alajo_right{
+        width: 700px;
+        height: 500px;
+    }
+    
+    .alajo_right img{
+        width: 700px;
+        height: 500px;
+        margin-top: -40px;
+        padding-right: -700px;
+    }
+    
+    .alajo_bottom{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 120px;
+    }
+    
+    .kjk{
+        width: 152px;
+        margin-top: 10px;
+        padding-right: -2px;
+    }
+    .shrewd{
+        width: 150px;
+        margin-bottom: 12px;
+        margin-left: -3px;
+    }
+    
+    .alajo_app{
+        text-align: right;
+        margin-top: -40px;
+    }
+    
+    .alajo_app p{
+        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+    }
+    
+    .playstore, .appstore{
+        width: 175px;
+        height: 50px;
+        margin-left: 3px;
+    }
+    
+} 
